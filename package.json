@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "start":"nodemon server/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "express": "^4.17.1",
     "next": "^10.0.6",
     "next-sass": "^1.0.3",
     "node-sass": "^5.0.0",

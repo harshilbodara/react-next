@@ -7,8 +7,10 @@ class MyDocument extends Document{
                 <Head>
                     <title>Next js Awesome kit</title>
                 </Head>
+            <body>
                 <Main/>
                 <NextScript/>
+            </body>
             </html>
         )
     }
